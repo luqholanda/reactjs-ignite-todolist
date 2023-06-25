@@ -68,6 +68,7 @@
 ## Sobre este projeto:
 
 [![Ignite Feed][product-screenshot]](https://reactjs-ignite-todolist.lucasholanda.com/)
+[![Ignite Feed][product-screenshot-2]](https://reactjs-ignite-todolist.lucasholanda.com/)
 
 Este projeto tem como intuito um exemplo de painel de postagens com comentários, semelhante ao que o twitter fornece.
 
@@ -142,6 +143,7 @@ Este template poderá ser utilizado como um exemplo de Todo List para seus proje
 - [x] Criação dos Componentes
 - [x] Comunicação entre componentes
 - [x] Criação dos Estados dos componentes
+- [ ] Responsividade
 - [ ] Suporte multi idioma
     - [x] Portugues Brasil
     - [ ] Inglês
@@ -204,6 +206,7 @@ Project Link: [https://github.com/luqholanda/reactjs-ignite-todolist](https://gi
 [instagram-url]: https://www.instagram.com/luqhh/
 [facebook-url]: https://www.facebook.com/luqqen
 [product-screenshot]: public/frame-safari-dark.png
+[product-screenshot-2]: public/frame-safari-dark-2.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
 [Vite-url]: https://vitejs.dev
