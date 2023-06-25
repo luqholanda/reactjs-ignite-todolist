@@ -76,7 +76,7 @@ Objetos de Estudo:
 * :jigsaw: Componentes
 * :link: Comunicação entre componentes
 * :round_pushpin: Controle de Estados
-* ::memo: Formulários
+* :memo: Formulários
 
 Este template pode servir como base de estudo para criação de outros projetos utilizando a mesma idéia principal.
 
