@@ -1,8 +1,8 @@
-import plus from "../assets/plus.svg";
+import { ChangeEvent, useState } from "react";
 import clipboard from "../assets/clipboard.svg";
-import styles from "./Task.module.css";
-import { ChangeEvent, MouseEvent, useState } from "react";
+import plus from "../assets/plus.svg";
 import { TaskModel } from "../model/task.model";
+import styles from "./Task.module.css";
 import { TrashIcon } from "./icons/Icons";
 
 export default function Task() {
@@ -19,7 +19,7 @@ export default function Task() {
     setTaskName(event.target.value);
   };
 
-  const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
+  const handleButtonClick = () => {
     const taskNameValue = taskName;
 
     const add: TaskModel = {
