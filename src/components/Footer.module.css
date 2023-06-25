@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footerContent {
+    width: var(--page-width);
+    display: flex;
+    flex-direction: column;
+}
+
+.styledHr {
+    height: 14px;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px 0 0 0;
+    margin-top: 24px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcons {
+    font-size: 24px;
+}
+
+.socialIcons ul {
+    list-style-type: none;
+}
+
+.socialIcons ul li {
+    display: inline;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.socialIcons ul li a {
+    color: var(--gray-300);
+    transition: color .1s;
+}
+
+.socialIcons ul li a:hover {
+    color: var(--gray-100);
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
